@@ -17,13 +17,13 @@ import jakarta.persistence.Table;
 	    private String nome;
 	    private String genero;
 	    private String idade;
-	    private double popularidade;
+	    private Double popularidade;
 
 	    public Filme() {
 	    	
 	    }
 	    
-	    public Filme(String nome, String genero, String idade, double popularidade) {
+	    public Filme(String nome, String genero, String idade, Double popularidade) {
 	        this.nome = nome;
 	        this.genero = genero;
 	        this.idade = idade;
@@ -67,7 +67,7 @@ import jakarta.persistence.Table;
 	        return popularidade;
 	    }
 
-	    public void setPopularidade(double popularidade) {
+	    public void setPopularidade(Double popularidade) {
 	        this.popularidade = popularidade;
 	    }
 	    
